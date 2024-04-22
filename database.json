@@ -1,0 +1,138 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "fullName": "Blake Smith",
+        "userName": "blakejonmycal",
+        "email": "B.jonmycal@gmail.com",
+        "numberOfPosts": 4
+      },
+      {
+        "id": 2,
+        "fullName": "Test User",
+        "userName": "testuser",
+        "email": "Testuser@gmail.com",
+        "numberOfPosts": 1
+      }
+    ],
+    "schools": [
+      {
+        "id": 1,
+        "name": "Utilitarianism"
+      },
+      {
+        "id": 2,
+        "name": "Nihilism"
+      },
+      {
+        "id": 3,
+        "name": "Existentialism"
+      },
+      {
+        "id": 4,
+        "name": "Stoicism"
+      },
+      {
+        "id": 5,
+        "name": "Hedonism"
+      },
+      {
+        "id": 6,
+        "name": "Marxism"
+      },
+      {
+        "id": 7,
+        "name": "Taoism"
+      },
+      {
+        "id": 8,
+        "name": "Rationalism"
+      },
+      {
+        "id": 9,
+        "name": "Relativism"
+      },
+      {
+        "id": 10,
+        "name": "Buddhism"
+      },
+      {
+        "id": 11,
+        "name": "Classical"
+      },
+      {
+        "id": 12,
+        "name": "Determinism"
+      },
+      {
+        "id": 13,
+        "name": "Objectivism"
+      },
+      {
+        "id": 14,
+        "name": "Humanism"
+      },
+      {
+        "id": 15,
+        "name": "Absurdism"
+      },
+      {
+        "id": 16,
+        "name": "Other"
+      }
+    ],
+    "status": [
+      {
+        "id": 1,
+        "name": "Legendary"
+      },
+      {
+        "id": 2,
+        "name": "Brilliant"
+      },
+      {
+        "id": 3,
+        "name": "Reasonable"
+      },
+      {
+        "id": 4,
+        "name": "Suspect"
+      },
+      {
+        "id": 5,
+        "name": "Hack"
+      }
+    ],
+    "philosophers": [
+      {
+        "id": 1,
+        "userId": 1,
+        "schoolId": 3,
+        "statusId": 2,
+        "philosopherName": "Jean-Paul Sartre",
+        "image": "https://cdn.britannica.com/76/9476-050-6661C2E1/photograph-Jean-Paul-Sartre-Gisele-Freund-1968.jpg",
+        "books":"Being and Nothingness, Existentialism is a Humanism, Nausea, The Age of Reason",
+        "notes":"One of Sartre's methods of defending existentialism is through the use of fiction (plays and novels). His fiction offers compelling accounts of the psychology of people grappling with their own freedom, which is the core concern of his philosophy."
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "schoolId": 15,
+        "statusId": 1,
+        "philosopherName": "Albert Camus",
+        "image": "https://www.laphamsquarterly.org/sites/default/files/styles/tall_rectangle_custom_user_small_2x/public/images/contributor/camus_360x450.jpg?itok=FDsUC3qu&timestamp=1409685824",
+        "books":"The Stranger, The Myth of Sisyphus, The Rebel, Exile and the Kingdom, The Plague",
+        "notes":"The philosopher asserts that we should embrace the absurdity of human existence and take on the purpose of creating value and meaning.  Efforts and resilience, not suicide and despair, are the appropriate responses. Camus argued that Sisyphus is happy and that we must emulate his resilience."
+      },
+      {
+        "id": 3,
+        "userId": 1,
+        "schoolId": 3,
+        "statusId": 1,
+        "philosopherName": "Simone de Beauvoir",
+        "image": "https://media.newyorker.com/photos/6287d9b2b7c4c52cc3741c5d/master/pass/ra1019.jpg",
+        "books":"The Second Sex, The Woman Destroyed, The Ethics of Ambiguity",
+        "notes":"Beauvoir’s emphasis on the fact that women need access to the same kinds of activities and projects as men places her to some extent in the tradition of liberal, or second-wave feminism. She demands that women be treated as equal to men and laws, customs and education must be altered to encourage this."
+      }
+    ]
+  }
