@@ -1,138 +1,264 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "fullName": "Blake Smith",
-        "userName": "blakejonmycal",
-        "email": "B.jonmycal@gmail.com",
-        "numberOfPosts": 4
-      },
-      {
-        "id": 2,
-        "fullName": "Test User",
-        "userName": "testuser",
-        "email": "Testuser@gmail.com",
-        "numberOfPosts": 1
-      }
-    ],
-    "schools": [
-      {
-        "id": 1,
-        "name": "Utilitarianism"
-      },
-      {
-        "id": 2,
-        "name": "Nihilism"
-      },
-      {
-        "id": 3,
-        "name": "Existentialism"
-      },
-      {
-        "id": 4,
-        "name": "Stoicism"
-      },
-      {
-        "id": 5,
-        "name": "Hedonism"
-      },
-      {
-        "id": 6,
-        "name": "Marxism"
-      },
-      {
-        "id": 7,
-        "name": "Taoism"
-      },
-      {
-        "id": 8,
-        "name": "Rationalism"
-      },
-      {
-        "id": 9,
-        "name": "Relativism"
-      },
-      {
-        "id": 10,
-        "name": "Buddhism"
-      },
-      {
-        "id": 11,
-        "name": "Classical"
-      },
-      {
-        "id": 12,
-        "name": "Determinism"
-      },
-      {
-        "id": 13,
-        "name": "Objectivism"
-      },
-      {
-        "id": 14,
-        "name": "Humanism"
-      },
-      {
-        "id": 15,
-        "name": "Absurdism"
-      },
-      {
-        "id": 16,
-        "name": "Other"
-      }
-    ],
-    "status": [
-      {
-        "id": 1,
-        "name": "Legendary"
-      },
-      {
-        "id": 2,
-        "name": "Brilliant"
-      },
-      {
-        "id": 3,
-        "name": "Reasonable"
-      },
-      {
-        "id": 4,
-        "name": "Suspect"
-      },
-      {
-        "id": 5,
-        "name": "Hack"
-      }
-    ],
-    "philosophers": [
-      {
-        "id": 1,
-        "userId": 1,
-        "schoolId": 3,
-        "statusId": 2,
-        "philosopherName": "Jean-Paul Sartre",
-        "image": "https://cdn.britannica.com/76/9476-050-6661C2E1/photograph-Jean-Paul-Sartre-Gisele-Freund-1968.jpg",
-        "books":"Being and Nothingness, Existentialism is a Humanism, Nausea, The Age of Reason",
-        "notes":"One of Sartre's methods of defending existentialism is through the use of fiction (plays and novels). His fiction offers compelling accounts of the psychology of people grappling with their own freedom, which is the core concern of his philosophy."
-      },
-      {
-        "id": 2,
-        "userId": 1,
-        "schoolId": 15,
-        "statusId": 1,
-        "philosopherName": "Albert Camus",
-        "image": "https://www.laphamsquarterly.org/sites/default/files/styles/tall_rectangle_custom_user_small_2x/public/images/contributor/camus_360x450.jpg?itok=FDsUC3qu&timestamp=1409685824",
-        "books":"The Stranger, The Myth of Sisyphus, The Rebel, Exile and the Kingdom, The Plague",
-        "notes":"The philosopher asserts that we should embrace the absurdity of human existence and take on the purpose of creating value and meaning.  Efforts and resilience, not suicide and despair, are the appropriate responses. Camus argued that Sisyphus is happy and that we must emulate his resilience."
-      },
-      {
-        "id": 3,
-        "userId": 1,
-        "schoolId": 3,
-        "statusId": 1,
-        "philosopherName": "Simone de Beauvoir",
-        "image": "https://media.newyorker.com/photos/6287d9b2b7c4c52cc3741c5d/master/pass/ra1019.jpg",
-        "books":"The Second Sex, The Woman Destroyed, The Ethics of Ambiguity",
-        "notes":"Beauvoir’s emphasis on the fact that women need access to the same kinds of activities and projects as men places her to some extent in the tradition of liberal, or second-wave feminism. She demands that women be treated as equal to men and laws, customs and education must be altered to encourage this."
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Blake Smith",
+      "userName": "bjmsmith",
+      "email": "B.jonmycal@gmail.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Test User",
+      "userName": "sfssdfsdfs",
+      "email": "fakeuser@gmail.com"
+    },
+    {
+      "email": "godisdead@gmail.com",
+      "fullName": "Jane Smith",
+      "userName": "neighborhood_commie",
+      "id": 3
+    },
+    {
+      "email": "krueger1337@icloud.com",
+      "fullName": "Stephanie",
+      "userName": "Stephsquare",
+      "id": 4
+    },
+    {
+      "email": "mmatesich@gmail.com",
+      "fullName": "Mikey",
+      "userName": "Matesich",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "fullName": "nicholas finch",
+      "userName": "finchy101",
+      "email": "finch101@gmail.com"
+    },
+    {
+      "email": "johnjohn@gmail.com",
+      "fullName": "John",
+      "userName": "Johnjohn",
+      "id": 7
+    },
+    {
+      "email": "trialguy@aol.com",
+      "fullName": "trial user",
+      "userName": "trialguy",
+      "id": 8
+    },
+    {
+      "email": "iamadog@gmail.com",
+      "fullName": "Hawthorne Silvia Jane",
+      "userName": "canine_philosopher",
+      "id": 9
+    },
+    {
+      "email": "jj@gmail.com",
+      "fullName": "Jim jameson",
+      "userName": "JJiscool",
+      "id": 10
+    }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "name": "Utilitarianism"
+    },
+    {
+      "id": 2,
+      "name": "Nihilism"
+    },
+    {
+      "id": 3,
+      "name": "Existentialism"
+    },
+    {
+      "id": 4,
+      "name": "Stoicism"
+    },
+    {
+      "id": 5,
+      "name": "Hedonism"
+    },
+    {
+      "id": 6,
+      "name": "Marxism"
+    },
+    {
+      "id": 7,
+      "name": "Taoism"
+    },
+    {
+      "id": 8,
+      "name": "Rationalism"
+    },
+    {
+      "id": 9,
+      "name": "Relativism"
+    },
+    {
+      "id": 10,
+      "name": "Buddhism"
+    },
+    {
+      "id": 11,
+      "name": "Classical"
+    },
+    {
+      "id": 12,
+      "name": "Determinism"
+    },
+    {
+      "id": 13,
+      "name": "Objectivism"
+    },
+    {
+      "id": 14,
+      "name": "Humanism"
+    },
+    {
+      "id": 15,
+      "name": "Absurdism"
+    },
+    {
+      "id": 16,
+      "name": "Other"
+    }
+  ],
+  "rankings": [
+    {
+      "id": 1,
+      "name": "Legendary"
+    },
+    {
+      "id": 2,
+      "name": "Brilliant"
+    },
+    {
+      "id": 3,
+      "name": "Reasonable"
+    },
+    {
+      "id": 4,
+      "name": "Suspect"
+    },
+    {
+      "id": 5,
+      "name": "Hack"
+    }
+  ],
+  "philosophers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "schoolId": 3,
+      "rankingId": 4,
+      "philosopherName": "Jean-Paul Sartre",
+      "image": "https://cdn.britannica.com/76/9476-050-6661C2E1/photograph-Jean-Paul-Sartre-Gisele-Freund-1968.jpg",
+      "books": "Being and Nothingness, Existentialism is a Humanism, Nausea, The Age of Reason, No Exit",
+      "notes": "One of Sartre's methods of defending existentialism is through the use of fiction (plays and novels). His fiction offers compelling accounts of the psychology of people grappling with their own freedom, which is the core concern of his philosophy."
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "schoolId": 3,
+      "rankingId": 1,
+      "philosopherName": "Simone de Beauvoir",
+      "image": "https://media.newyorker.com/photos/6287d9b2b7c4c52cc3741c5d/master/pass/ra1019.jpg",
+      "books": "The Second Sex, The Woman Destroyed, The Ethics of Ambiguity",
+      "notes": "Beauvoir’s emphasis on the fact that women need access to the same kinds of activities and projects as men places her to some extent in the tradition of liberal, or second-wave feminism. She demands that women be treated as equal to men and laws, customs and education must be altered to encourage this."
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "schoolId": 6,
+      "rankingId": 2,
+      "philosopherName": "Karl Marx",
+      "image": "https://cdn.britannica.com/22/59822-050-98F24569/Karl-Marx-1870.jpg",
+      "books": "Das Capital, The Communist Manifesto",
+      "notes": "Private property is inherently theft! Take back the means of production!"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "schoolId": 15,
+      "rankingId": 1,
+      "philosopherName": "Albert Camus",
+      "image": "https://media.newyorker.com/photos/5909675d019dfc3494ea0dd0/master/pass/120409_r22060_g2048.jpg",
+      "books": "The Stranger, The Myth of Sisyphus, The Fall, The Plague, Exile and the Kingdom",
+      "notes": "The philosopher asserts that we should embrace the absurdity of human existence and take on the purpose of creating value and meaning. Efforts and resilience – not suicide and despair – are the appropriate responses. Camus argued that Sisyphus is happy and that we must emulate his resilience"
+    },
+    {
+      "userId": 1,
+      "schoolId": 3,
+      "rankingId": 1,
+      "philosopherName": "Arthur Schopenhauer ",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/800px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
+      "books": "The World as Will and Representation, On the Suffering of the World, The Art of Controversy",
+      "notes": "Schopenhauer's metaphysics and philosophy of nature led him to the doctrine of pessimism: the view that sentient beings, with few exceptions, are bound to strive and suffer greatly, all without any ultimate purpose or justification and thus life is not really worth living.",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "schoolId": 16,
+      "rankingId": 2,
+      "philosopherName": "Michel Foucault",
+      "image": "https://i0.wp.com/criticallegalthinking.com/wp-content/uploads/2017/11/Michel_Foucault.jpg?resize=581%2C400",
+      "books": "The History of Sexuality, Discipline and Punish, Madness and Civilization ",
+      "notes": "Foucault, in spite of the accusations leveled against him of political and ethical nihilism, had firm views on the kind of ethical approach that he wanted to take in his work. He argued that he wanted to render certain taken-for-granted exercises of power ‘intolerable,' by exposing them to scrutiny. He argues that the exercise of power only remains tolerable by covering up its tracks. He saw it as part of his task, to make people aware of how intolerable some previously taken-for-granted exercises of power actually were and show them that things could be different."
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "schoolId": 2,
+      "rankingId": 1,
+      "philosopherName": "Jean Baudrillard",
+      "image": "https://onscenes.weebly.com/uploads/9/8/6/5/98654918/published/baudrillard-011-copy-1489x1280.jpeg?1550421193",
+      "books": "Read:\nSimulacra and Simulation, The System of Objects, America, \n\nunread:\nSymbolic Exchange and Death",
+      "notes": "Jean Baudrillard has been referred to as \"the high priest of postmodernism.\"  Baudrillard's key ideas include two that are often used in discussing postmodernism in the arts:  \"simulation\" and \"the hyperreal.\" The hyperreal is \"more real than real\": something fake and artificial comes to be more definitive of the real than reality itself.  \n\nExamples include high fashion (which is more beautiful than beauty), the news (\"sound bites\" determine outcomes of political contests), and Disneyland (see below).  A \"simulation\" is a copy or imitation that substitutes for reality.  Again, the TV speech of a political candidate, something staged entirely to be seen on TV, is a good example.  \n\nA cynical person might say that the wedding now exists (for many people) in order for videos and photos to be made—having a \"beautiful wedding\" means that it looks good in the photos and videos!  \n\nBaudrillard often writes in an exaggerated or hyperbolic style (following his philosophical forefather Friedrich Nietzsche), so that it is hard to know whether he is serious or tongue-in-cheek."
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "schoolId": 16,
+      "rankingId": 2,
+      "philosopherName": "W. E. B. DuBois",
+      "image": "https://cdn.britannica.com/08/78408-050-4C599E7C/WEB-Du-Bois.jpg",
+      "books": "The Souls of Black Folk, Talented Teeth",
+      "notes": "Du Bois contributes to our specifically philosophical understanding of race and the race problem, because he treats these themes as objects of philosophical consideration—indeed, it is largely through an engagement with Du Bois’s work that many contemporary philosophers have come to appreciate race and race-related concerns as fruitful topics of philosophical reflection. Through his work in social philosophy, political philosophy, and the philosophy of art, Du Bois, for all intents and purposes, invented the field of philosophy and race, thereby unsettling and revising our views of the proper scope and aims of philosophical inquiry\n\n"
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "schoolId": 2,
+      "rankingId": 1,
+      "philosopherName": "Emil Cioran",
+      "image": "https://assets.theschooloflife.com/wp-content/uploads/2022/01/27015859/1a6935f95c346f450708819e25c29674.jpg",
+      "books": "Read: \nThe Trouble with Being Born\nThe Temptation to Exist\n\nUnread: \nA Short History of Decay",
+      "notes": "His work has been noted for its pervasive philosophical pessimism, style, and aphorisms. \n\nHis works frequently engaged with issues of suffering, decay, and nihilism.\n\nI renounce my humanity even though I may find myself alone. \n\nBut am I not already alone in this world from which I no longer expect anything? \n\nThe fact that life has no meaning is a reason to live --moreover, the only one."
+    },
+    {
+      "userId": 7,
+      "schoolId": 2,
+      "rankingId": 1,
+      "philosopherName": "test",
+      "image": "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg",
+      "books": "dfgdfgsdfgsfdg",
+      "notes": "dfgdfgdfgfdsgdfgfdgf",
+      "id": 14
+    },
+    {
+      "userId": 8,
+      "schoolId": 7,
+      "rankingId": 3,
+      "philosopherName": "dsjafhlkadhdlakj",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBQVFRgSEhYYGBgYGBgYGRgaGRgYGRkYGBgZGRwYGhgcIy4lHB4rIRoYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJCs0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAPMA0AMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xAA8EAACAQIEBAMFBgUDBQEAAAABAhEAAwQSITEFQVFhBiJxE4GRobEHMkJSwdEjYnKS8IKy8RRTosLhJP/EABgBAAMBAQAAAAAAAAAAAAAAAAABAgME/8QAIREBAQACAgMBAQADAAAAAAAAAAECESExAxJBUTITInH/2gAMAwEAAhEDEQA/AORUKFCkQ6MUVGKAOjoqVQAo6KlUAKFAUdAFQpaqSQACSSAABJJOgAA3PatLwnwPi70F19ip5sJY+iAz/cVpXKTsTG3pl4oRW7ufZ4yuoa+MhIBhTn7xrA9dfQ1pE8BYJAGyMxEHzO5XT+WYI9ai+TFc8WTj8UVddxngvBukhMhkDMjFYkwfKNPlVTxP7PrSIWtvczKdSxRgR6BRS/y4j/Fk5vFEa0GM8KYhFzqFdToNcpn0bT51TYnCPbbLcRkO8ERI6g7EelXMpek3GztGIojSyKSaoiaFGRRUAKFChQAoUKFAHR0VCgDoxRUYoA6VSaUKAOjoqewmFe6627Sl3cwqiJJ357aAme1ANgcuug7npWj4Z4Jxt6P4fs1Mea4cu/8AIJaexArofhjwlbwqZ9Hvne4QCV2lUH4R33PyrVsnIcvoOdZXP8aY+P8AWR8M+C7OFIuOTdvH7rRATkciyY3+8dfSTWtZCBlXQ9N47k03bxCiSvmJ0012HwFSbQJ30n31jb7VrJ6xFfDDcyTz7ftTBLIJVswB5jUdB0qwe4qaHc9ajhQqNO7SR+lKw5UC9ilAkqwnfy+U+sVHuXSNNdORGaV5CRv61dpbDJkJgmTI0jTcVVOoJDfiQsp2gkcvTf40rtUqrxODkCJEnTsaz3FOHh1Nq4un4SN1b8yHl6VvrtrKcw/EJjlIEg/pWU4q7FmzDygkz310+VVOE3ly/ivDXsPkbUHVW5MP0PUVBIrouOwy3kyOJG4I+8pjRl71iOJcNey0MJWYVx91v2PY1vjl7Mcsdf8AFeRRRTkUkitGZEUKURRRQBUKFCgDoUKFAHRiio6AOlCk0YoA66h9nfhl7M4y+CrMhW2hGoV4lm/KSNAOhM76Uv2b+H1v3TibglLTDKsSGuAZpPZZUx1I6a9aRNg3PX9h3/5rLPL5GmGP2m7TajmBt3I5+k0niTnIArRnOUsPyjVo900p0c7QB9AKrXxIeMuvs2YabNoASD76wt1NN5OTj4tMOuq6hZIHU65PXqarLPEcVeb2iKEQfiaQAJ5dTGlTmwBuXHZhmXOSFOxmCJ7D9Kl38KYKgzqN4jQDQDkKmSnuID8atISJN1+wgT250izjXdyzbDeD5EB6nm1B8KwkZM0nTzlRAjcCqzFYa8/lLKqD8FsQo/c96e79Pha3uMgswTWBoesDlSeF3Dll9JJcz1P/ABVFdwF5VJRlGm5kmncNgb5AzuzDmBAA3M96X02kxGNb8InSAfwr3nnVFiYKuWMyfLAjbmOms09/0txEAJZ9NhsPXnURVc+ZkJMQFWcoy89Y7VW7tOppFZBlSNwMp+MUxiMIrq1u4sqdCPTmCNjzpOJxOVgGEEkabExtA3ipeYFZ0k6RNPadOccXwBsXDbmR95TzKnae42qCa3Pizh2dA6CXTXvl/EO/X3Vhq6McvaMMsfWkmipRoqtBNCjoUAVHRUdACjoqOgDpQpIoxQHafs6wwXA2yDqc7n/U5P0yj3Vff9V/EaRooI98n9AazH2flkwCEkku9xlHRQ+QAdpBP+qre9aY3G7t8srA/Nh8a5c8tV04TcFfxjOpM5EYsqxGZ43InYd6k8CQFHIHlEIvrqT9ZnvVLiMI7vbtoNhA6AlmJJ+ZrRXgLFtLKasTlB5l2+83oBUY881eX5E6xlVdOf8AxUe7iMg2/enWIVQI5bcqjm8g1IBjc71VRBJdVuXeozi2xIEiOnX4VLXF248qj4f53pDpbaTkA11glT8qSjOJsoyZQzCdNgY+NOWrKgaON/y/saRewSQDmcDs37ipFnh1reX/ALv2FHI3C3QR98H3VXK6FokSIAnQmd/mp+FXNvBWwDlJ+M1VjBpmUEaq5IJ35kT13+dVymaVmPwCOfMOonY/KoOHwCIPKvIGSZ37mtBibXTvVRMoP6f1pZcKnKsx9uBKieRHUVzDHYU2nZDyOndfwn4V1bGnyBh29+2nzrB+MLEPbcfjQqfVTP8A7/Kr8WXOkeWcbZ2iilUUV0OcmKFKoqARR0VCgDo6KjoAxRiiFHQHePCeFVMHhywkiykD+Z1Dn5mrK7fCBnYQoj1kax6VmuCcXBw+DM+QqqtB2IGQg+jAirnE4pWDO5zKD5VmBIjf3n5VyZXt04zo5g8UFtrcZYdyY02ViT+mg6mpGDwjhzeuGWgKi7hBzPdjTfDEzxcc7GYGywNB661LxeKC/dEn5Clj1s73ojFqYJJPbkBoNqqr9xVHmKxpIn0nT/Nqq+L4pyT7R+mk6R6VnbnEGzSSSNvdIP6Urluqk0263EVc50kfdLTGp9/Wm7WLR5BzA66cvfG/+b1kb/FA5HmgARE9/wBppkcXZAWPQxruTsKYae5ilCAhvwMTIOsQesf4K0OCdWUAnl1rnmGxeeyyjdUePXLU7h/GDAI6aUuh26KiaaVAw1k52uSdAUI03B+PI/GqPD+ICsZyI58yRVY/iR0v3AjAoCTmMBTPmjX72hG281XtKn1sbEpr8fpWXv3hbvPafQZsyHqrbj4/SrnhXH7V2JYBuYAMTG402qL4iwiOucqGyyRvt2I1oy1YMeKqrzaNbyyhEg9CdRHaYrFeMyP4S/1n/ZFa03nCwQirlkQZlRpM9pFYnxaSbqdPZiB/qbX36U/F/ReX+VAaKlEUIrqcxNCKOKOKAYoUKOgBR0VHQBijmNaIU9hkzOi/mdV+LAUB1nhGEtLhreH1DW1BfuzeZiD/AFEinsZgnCC2rTmcmdRq8A79/rU65hQALeZUz6t+YzOs8gB9Kt79gAIvPSD/AG6fKuLVy3a7NzHWkrBWRbtheg1qi4rxFUkA1onEqRWR45wgPJEkHuRy7VV64TO+WT4hji7GDrzJ2UdT+1RHwrMB5HaTuzEE6fkX7orQYTgKqTpt5oJOrDbXtSeIWCBlhtTGhGny3pTg7yxly2FY/hMxGYkfOrPwxw9sTeNu5IRVJJ9OlS04I7uEVDqd2JLH3CBXQeA8ATDKFUeZjqdTvrz7097TrRjDeGLMGLLrIjOHbbacpMfKuZ8VxTYa89hTIRyoPXofhFd8w6NsYrm/i7wUXxTX0aEurmfSWDqIaOxAB+NP1k7KZX4wNvE3rjKWdgk65QC0bTG3xq3w2AR1C27v8VdBbuALnA/I40Ddj8an4fhq4a9o+RQoSWUkamT6gyOR2q5s4Wy7KpYXQQIVUKgRr946jXpSuU+Lk/VZwLEASrjX4RHKORrXYdyyEdBK/DSqm74ZZn9pnhiRPOehPeInrvV9gsIyAKfee1TOzvTM4+4vs4jfXbaYke8j61zjjWKF26WGwAUdwJ195JrqOPf2UtkDEmAmhEa9emvxrlvFkUXnCCFzTHQnUj3EkVr4Zyy814QIoopcUUV0OYmKOKVFCKAiUdFR0KCjFFRigFCpGBBNxAu5dAPXOI+dRxU3hDAX7LNsL1on0DqTUh17HYctirbTlGdPeOY9+1aXFsC6g8v1qM+EDkciCNewo8U8OG5Lp6s0H5ACuacbdV50k3nykTt+tQsc65Drty609iyCAe81SY+/Og0A+Z/SlaJDIck6deX0pw8IuuViF31Pfn86lcNQCCwAJ2qXxDiOQGD2o47Pd6ScFhbWHAEhniCx3p61fJYMNpOnurM8Hd8TcLAnIn3j9AO9anDpBHy9DVY1OUTMNe8x760rFIrrlJiTM9CDT2FRZMf5pTXEcOzW3VIzFGyawA8GJOsCY1qtXSdzbN8U4OHm4gUtrmESpjmoNN8K4eVYsdANIocMx7klGHnUwQCesA/51FaBFGsVnjzy0y44QryAkeop5wOXemr4Abvy/WlKwI/zen9L4yvF7eZ3zbL30AInQVyW82ZmbqxPxM11TxwwSy9yYYoUHqzED5GuVRWvhndY+a9QiKEUuKEVsxIijApUUAKZK+hRTQmksqaE0maE0AsGldqamjBoDtng7xOmJQISFuqnnQ7mIGZeqkkek1Y3Qz3S2uRJAPIt+JvQdetck8D32XFoFOrpcT/wLj5oK6fxXibWlFu2ssEBJ100n/PfXN5Jq6dGF3NrbEXPLHYfMTBqjyF3E9fjUjg7tcU3H2EnXmzf/PrT+AyuPaDaTryOvKsry0nA1fKuY7AHT41lOO8SMGTqTp0ArR8Su+Ugd4rBcZZi0L5iSFUdSTAH0pzkVe+EuOulq8FUwrBs2+4gj/b8akcF8bu972ToADswOoI2EVccD4SuHw6IsFmHmYj7zsNTHTfT0qj489m0oKAZl/EBqT1mnbyJOF7gfE+S4xuA5SfvU/Y8fo75LaNHIndhMaCudYK5fxJZUOULBYxJgmP2+NbnwxwvDWHysC16fK7mVMjSADA33o3ZxaLJedGcdxFrOLZri5A/mWY2O4076e6tZw7Fh1md4imPEPAkxliB5XAzW25q4/CexiD6dqynhrFvab2FyQwJkdwdqLdFJtqOK3CBI9aLBOGAkiTy50eP1Sd5I0An5U5gcMIB/Cw2+hBo+n8Yj7S7sWrVs/eZy0fyopUj4stc4it/9qs+0sa/gfToZtzWCiunCaxcnku8iYoRSooRVoJijAo4o4ppVVChQpNAoUKFAChQoUBa+F7wTGYd229qgPoxyn611biNom4xYyHKL6ICSfpFcWUkagwRqD0I2NdbxPEGfDWr0Q1xFckbAlQSB7yax8v628P4vrNotZyKfvsWJHQkD6U3admcW0EAAxyCoO3WofBMSwQW2OygiehE1OwzhEe710E9uXpOtc3bo1pXcZvRIGw561A4HwgPOJuLPmy2x0OoLmrD2Qc+cnM/3R23PyqffXJbRQCqiRHOCI1FVE1TcZ46oCMHOUD48htWSxPErLnzlt9yrQT7qGKSD7NtRm0qRieHoGUsvlG4A/X405J3Rb8ie3GsKtsLacWyVUeRSTOYFusggHQ7xyqJhONr7R/ONoQglDp1VoiYGkU4+KsewyWwqOjSPKJOm+vOQNd/lSPFeNs3rSO9oLcDffGjOo/N1OopzGFcq6J4M42b1t1cyUE5tBrAnXnU3jHDgbiXVA8wgkaajb5fSsB4MxWQj2akqA2YgaGZMFuvPXpXTExaPZDnUQJ20MxHx0o+apfdwxcsnICAIUEkGdhAgHkdTTtvKq6bBtI/mEx8zUm2wfQHQr8CaqXcgtbaQSFMEaBk/QgaUXiicubfaXic+JVOSW1P+pySfkFrIRWk8eurY65k2AQH1yKf1FZyunHpyZX/AGpMUKVQiqQKhRxQoCooUKFDQKFChQAoUKFACup+HOHs+CsG82VFVyB+JlLHL8RHuIrltdS4Hjva4O1J0RFTfdkGWI9wPvFY+b+Wvh/pYJcUXdSFVU2/0gAD3mpNuTaCt+c6baEj9KrOH2Pa3lDbAS3oN6vr90MM382b3ZorldN/FdhsQf8AqVO8Eoo7ldT8P1pzE3GJdJ+6Q/xn9xUaxcVcQhbTKXb4K1OKjOWaIzuF/tE6Cq2FXw/hBxGJE/dXU/oK6AnBrMQEG0EmqbgwVFLjr8gcv1qzw+OA0BVTOub+rfenOuUXfxVP4cts5BQaMADA331jsRVP4/8AC7NaW7aIhAxZOZ7j51tbLIGugEEu5fcQAUQSIPUR7ql2nVwAwEkSe8/4auJrmPh7g1xbdu6reRnUEdCZ177R763XBbDBbqHUZmy9N5H6fCq3hmDuWmu4cKWCsCgJgHKwZYntVxh8VlZUykMxlp6yRAHSefOKzl3eV3iaibw8Zbjr+Hyso/LMz7pmm71oOwECWnXWdCROnb60u9iFXWBmaIPONqoOOcf/AOmR3H3gkINwXcmPpJ7TWk/EX9co43ez4i8/I3Hy/wBIYqs98oFQaWaKuhyXkmhSooVRE0KVSaCU9ChQoaBQoUKAFChV7wnwviL0MRkT8zDUjsu/xilbJ2JLelJbQsQqgkkwANST0AroXBOFXMPhofRmfMy/llQAPWBV3wHwzYw8Mq5njV21b3flHpVnicMGUrtOx7iss77TUb4Y+t3VNwRyDcJ2OVSecCSQPXT4VbYC4LhdvwoBp6GQO23yqNw3CQrodyCY0mYikcHsuM6D8bKG7CDr8zXLW8M2gr4mQNPNHz1/WrzEr5YUfccn3ERVJZwot31Ockk5TO2umg99WWJxWR1nUHykdxz7/wD2mEWziyoZOYYn3H/7VTjeJsrEz60OMKVbMp21nlHSqvF3BcQldGAmOoG/vFVIVqXguKPbuwDEgEgnQZhoPoa3XAeKi4guaRnKQInKBOY/OsLatK9r26gi4gXNzz2ycuo/MsjXp6U9gcXktBB1PrBgdewp265iZN8V1O6+V0uRIYEb+hH61U8bOXEo6/8AbLf25v2qNwXiq3cObcjOgzqTtA3k+k0rjeKlLTtGbzrKsYIKrmA0E70sr/qcmqtbWDAQXG1IXnsASSBry1rnX2lv57ag6NmYjuioo+rVrcNxnNh3tkHOEyoRuSfKB8Y+Fc68V4fEG61y6pyDRSNVCjr0PrWni1bKz8u5Kz0UqhQrpcoooUdCgqKio6FBKShQoUNAq44P4dv4iGAyJ+dhv/SOdafwz4RVQLuJALaFUOoXmJ6mtkirsPTSsss/xpjh+qPg3hizZghcz/nbU+7p7q0lq0KbUgU6jjr86z5rTrpKS3ypi+sVJsXBM0ePsGJXWq0Nqu8mocbgH/PTen+HuqLcuN/Lp6/8/KmlO4I9ahYy6VzjrDfp+1YZcctceeEDH3CcQrRAlfqNKscfbMzG8H0kCqfD+e4gImTt6axFTMdddruVtACZH8q9KUNExwlVDdCT6Hb5VQ4bDsLhgSu86QAavOJQ8yd9h0AprD2wihRz11M1UqbNm8Hca2r6TmDLEQACfXXlUXA4NsVe9kpCrzY7DpTmNuZichmPvU54fdrb+0HftuCIjnRvXI1vhfcB4S9n2vtDqqsgg7lhE/M1phwsXMKVYQyiUJ3UgAadjHzqhs8VdgSd2200ABOvfkfWtPgLhuIFQEJzPMnmJ5z17mjHVujy3Ir/AA/wfIntH1ckx0A207nXXpVpewSsCCAasUtQKPJW+OOpphcrbtgeM+BbTy1r+G/bVD6ry91YLivBL+GMXU8vJxqh9/L313lrdRb2ERgVZQwOhBEg+6rm4iyV5+oRXQfFHgcIj38NplBZre4gakp09KwFVKyyx0TRUZojTSpKm8Fsh8RZQ7NcSfTMCfpUKrvwfbnGWZ2BZv7UYj5xSvTSdutFAKLL0os87T8KJ37GsHQVFBFpCXJFLE/8UaB1X10qdZxAgKedUz3IorGJJ33o3oa2s8Th4lhsfrVc9rMCx5HbmRGoqbYxRPlmaGOVQMw21kd+X0NLLVhzcZlgbbh+YI+I1qVi7wbKyj7yMSdzJgmffQ4o4yJCwSA7ep1j1gijFiLS5jqS3w1rLpp2y74oqSTrrB9P8NO3rhKBk5j6cqk4nBKZ0kT295NElgaImwBn1NVuaLnausE5czHUkgDX5Vo+GtkRlgS4CiRJWZ58iRNV9i3k0AGbkTrE66fGr7h2cIyGDmgyeo5joajKqxhFxAphTI0Ud45/Ek++tzwRf4agRAG42Lc/h+tZPBcNNx8oOgPmPRdp9da6BYsqihEEKogDsKvw47u0eXLjQgtHlpYFHXSwNFKRkp80AtMItyyCI6iuD+IOHHD4m5Z5K3l/obzL8iPhXoErXMftY4bDWsUo+8Dbf1XzJ8s/wFE7TlzHOSKSacIpBqmVUVaf7PUnGKfyo5+QH61mK2X2YpOJc9LDfN7dTemmPbojye3vplkPepV05aZY86zbwxbtlRvNIZj1PuqRNMXVFAJdgQaRaELRNFAnSpoOpodKca9IyE8qje0HKkZzOtIDa4zXktsNFBJJ2MIfkTFRcTjFkhjHIDsOlScReYwRGYbHqOhqp4jZOVQBEAgzvBYnf31GU2vGjOMVyFHXrUhXUaDaqpeFqye0khhOxI13HyioS3HYFAWnvrGu4mlcd9HMtdtDZ5v30o7nEXJ8qk8tAdPhVfhbN0IxLMUWNl1PISRsKl8KFwPbZVYScwnQEBtx8R8an15P24bTwczFGBIJYzmHbZe0Vsoqg8O4VA73LYIRmJAiIYxIHYGfj2rQ10+PHWLnzu6SFo8tAUutEGylEBTtFFPQ2RlrP+OeHe2wV5QJZF9ovWU8xj1XMPfWkikOoIKsJBEEdjoaNB5qIpJFTOIYX2d17X5HdP7GKz8qjEU0WM5W9+ytP4mIbpbUf3OT/wCvyrBiugfZahjFNH/ZX3/xD+1TelY9tzc/w0wwp4oTTdyyVEms2xqRUJ3LNpt9aeuSfKBBOgnf1imGXJ5egoAN2oNMb0SGRJpLSTApGj5zOlLN0GlPbgUyvD7hOZQY6UgN36UxjLjlIWO01NbAONxURkMxU04pOHC4jzcaVMgwSd+cU3xTEgODbJkbkSAT+orX8K8OviG2yrzY1rcD4TwyffQOerCdacm+St1wxnhHjryFCDzEKyROfuF610t+GWnUK6DKIIAlY05FYinsLgrSD+GiJ/SoH0qTV446TllsmxaVAFUAAbAU7SBShWkqBxR0Jo6ohgUIoi1ANQQGkmlE0kmg3FPtDwAtY58u1wLdHq8hv/JWPvrLEV0f7WcN57F3qrof9JVh/ub4VzsilE1mBXSvsqH8PEf12/8Aa1HQpXpWHboiII2qNdHmoUKzWj+zEkxUe/bE7UKFKriK1sdKJUHShQoCw4dh0JEqN601rDpl+6NqFCqxTVZirC9BUXBYK2ZJUTB1+NChU3+jnTT4a2AogRoKWaOhVRFGKWtChTgLpQoUKuJGKDUKFMCojQoVIKNNmhQoojE/amP/AM1vteH+x65UaFCnE5P/2Q==",
+      "books": "dfagdfagdfakghafdkjgdg",
+      "notes": "adfgadfgfdgafdgafdgafdgafdg",
+      "id": 15
+    }
+  ]
+}
